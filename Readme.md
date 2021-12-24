@@ -1,19 +1,19 @@
-## PROJETO REACT COM NEXT JS  - MEGA SENA
+## Projeto REACT com NEXT JS - MegaSena
 
-O projeto coinsites em gerar SEIS numeros, para um sorteio qualquer.
-
-
-## COMPONETES 
-São usados conseitos importantes de componetização do react e next js.
-
-Estado de um componente, comunicação direta e indireta atraves do componentes, modulos CSS e etc.
+O projeto consite em gerar SEIS números, para um sorteio qualquer.
 
 
-## EXECUÇÃO
+## Componentes
+São usados conceitos importantes  do react e next js.
+
+- Estado de um componente, comunicação direta e indireta atraves do componentes, modulos CSS e etc.
+
+
+## Execução 
 ```bash
 npm run dev
 ```
 
-## TELA PRINCIPAL
+## Tela Principal
 
 ![ScreeShot](https://github.com/fredcrodrigues/MegaSena---ReactandNextJS/blob/main/img/TelaPrincipal.png)
