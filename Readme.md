@@ -10,7 +10,7 @@ Estado de um componente, comunicação direta e indireta atraves do componentes,
 
 
 ## EXECUÇÃO
-``` bash
+```bash
 npm run dev
 ```
 
