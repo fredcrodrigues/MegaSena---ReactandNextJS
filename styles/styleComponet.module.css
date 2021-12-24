@@ -1,0 +1,99 @@
+/*ajust for the div primary*/
+
+.div_column{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    
+}
+
+/* button for draw*/
+.d_button{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top: 70%;
+    left: 42%;
+ 
+    
+  
+
+}
+.v_button{
+    /*display: flex;*/
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 3em;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 0.90em 2em;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+ 
+    
+
+}
+/* colors for columns */
+.v_red{
+    display: flex;
+    flex-direction: row;
+    background-color:#B40707;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+}
+.v_pink{
+    display: flex;
+    flex-direction: row;
+    background-color:#CD0060;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+}
+.v_lilac{
+    display: flex;
+    flex-direction: row;
+    background-color:#B43EB2;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+}
+.v_blue{
+    display: flex;
+    flex-direction: row;
+    background-color:#5874EC;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+}
+.b_blue_c{
+    display: flex;
+    flex-direction: row;
+    background-color:#0098FB;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+}
+
+.b_blue_m{
+    display: flex;
+    flex-direction: row;
+    background-color:#00AFE1;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 100vh;
+}
