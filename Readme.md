@@ -16,3 +16,4 @@ npm run dev
 
 ## TELA PRINCIPAL
 
+![ScreeShot](https://github.com/fredcrodrigues/MegaSena---ReactandNextJS/blob/main/img/TelaPrincipal.png)
