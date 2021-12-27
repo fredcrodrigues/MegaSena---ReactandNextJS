@@ -14,9 +14,10 @@ export default function Numero(props){
 
         if (props.value != null){
             return <Numeros position ={props.value[num]}/>
-        }else{
-            return <Numeros position ={0}/>
         }
+        //else{
+          //  return <Numeros position ={0}/>
+        //}
     }
     //solution possible for render  the component
     //{ v_numero ? <Numeros posicao ={props.valor[0]} />: null }
