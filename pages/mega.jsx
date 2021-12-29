@@ -5,9 +5,6 @@ import styles from '../styles/styleComponet.module.css'
 
 export default function principal(){
     
-
-    
-    
   const [vArray, setArray] = useState([])
   
   function generation(){
@@ -18,16 +15,15 @@ export default function principal(){
    
     for (var i = 0; i < 6; i++){
       // generatior values random
-      const v_number =  Math.floor(Math.random()*60)
-      
+      let v_number =  parseInt(Math.random()*60) + 1 
       //  addd element in array
       array.push(v_number)
       
     }
+    
     // get value and add in array of usestage
-    setArray([array].concat(vArray))
-  
-   
+    setArray([array.sort((n1,n2) => n1 - n2)].concat(vArray))
+    
   }
   //test
   //console.log('Array',vArray)

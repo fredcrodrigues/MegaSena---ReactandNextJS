@@ -35,12 +35,18 @@
     line-height: 1;
     margin: 20px;
     padding: 0.90em 2em;
-    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
-    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
- 
+    transition-duration: 0.4s;
+
     
 
 }
+.v_button:hover{
+    background-color: #fff;
+    color: #3B3B3B;
+    border: 2px solid #fff;
+
+}
+
 /* colors for columns */
 .v_red{
     display: flex;
